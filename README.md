@@ -1,6 +1,6 @@
 # QR Code
 
-Docker container to run QR code generator.
+Docker container to run QR code generator (qrencode...).
 
 ## Example
 
