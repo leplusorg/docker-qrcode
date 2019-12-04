@@ -9,7 +9,7 @@ Assuming that you have a file `foo.txt` in your current working directory that y
 ### Mac/Linux
 
 ```
-$ docker run --rm -it --user="$(id -u):$(id -g)" --net=none -v "$(pwd):/tmp" thomasleplus/qrencode qrencode -l L -r /tmp/foo.txt -o /tmp/foo.png
+$ docker run --rm -it --user="$(id -u):$(id -g)" --net=none -v "$(pwd):/tmp" thomasleplus/qrcode qrencode -l L -r /tmp/foo.txt -o /tmp/foo.png
 ```
 
 ### Windows
@@ -17,13 +17,13 @@ $ docker run --rm -it --user="$(id -u):$(id -g)" --net=none -v "$(pwd):/tmp" tho
 In `cmd`:
 
 ```
-$ docker run --rm -it --net=none -v "%cd%:/tmp" thomasleplus/qrencode qrencode -l L -r /tmp/foo.txt -o /tmp/foo.png
+$ docker run --rm -it --net=none -v "%cd%:/tmp" thomasleplus/qrcode qrencode -l L -r /tmp/foo.txt -o /tmp/foo.png
 ```
 
 In PowerShell:
 
 ```
-$ docker run --rm -it --net=none -v "${PWD}:/tmp" thomasleplus/qrencode qrencode -l L -r /tmp/foo.txt -o /tmp/foo.png
+$ docker run --rm -it --net=none -v "${PWD}:/tmp" thomasleplus/qrcode qrencode -l L -r /tmp/foo.txt -o /tmp/foo.png
 ```
 
 ## Help
@@ -31,5 +31,5 @@ $ docker run --rm -it --net=none -v "${PWD}:/tmp" thomasleplus/qrencode qrencode
 To know more command line options of `qrencode`:
 
 ```
-$ docker run --rm -it --net=none thomasleplus/qrencode qrencode -h
+$ docker run --rm -it --net=none thomasleplus/qrcode qrencode -h
 ```
