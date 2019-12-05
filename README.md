@@ -25,7 +25,7 @@ Same thing, assuming that you have a file `foo.txt` in your current working dire
 ### Mac/Linux
 
 ```
-docker run --rm -it --user="$(id -u):$(id -g)" --net=none -v "$(pwd):/tmp" thomasleplus/qrcode qrencode -l L -r /tmp/foo.txt -o /tmp/foo.png
+docker run --rm -t --user="$(id -u):$(id -g)" --net=none -v "$(pwd):/tmp" thomasleplus/qrcode qrencode -l L -r /tmp/foo.txt -o /tmp/foo.png
 ```
 
 ### Windows
@@ -33,13 +33,13 @@ docker run --rm -it --user="$(id -u):$(id -g)" --net=none -v "$(pwd):/tmp" thoma
 In `cmd`:
 
 ```
-docker run --rm -it --net=none -v "%cd%:/tmp" thomasleplus/qrcode qrencode -l L -r /tmp/foo.txt -o /tmp/foo.png
+docker run --rm -t --net=none -v "%cd%:/tmp" thomasleplus/qrcode qrencode -l L -r /tmp/foo.txt -o /tmp/foo.png
 ```
 
 In PowerShell:
 
 ```
-docker run --rm -it --net=none -v "${PWD}:/tmp" thomasleplus/qrcode qrencode -l L -r /tmp/foo.txt -o /tmp/foo.png
+docker run --rm -t --net=none -v "${PWD}:/tmp" thomasleplus/qrcode qrencode -l L -r /tmp/foo.txt -o /tmp/foo.png
 ```
 
 ## Help
