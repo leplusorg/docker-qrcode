@@ -49,3 +49,7 @@ To know more command line options of `qrencode`:
 ```
 docker run --rm --net=none thomasleplus/qrcode qrencode -h
 ```
+
+## Request new tool
+
+Please use [this link](https://github.com/thomasleplus/docker-qrcode/issues/new?assignees=thomasleplus&labels=enhancement&template=feature_request.md&title=%5BFEAT%5D) to request that a new tool be added to the image. I am always interested in adding new capabilities to these images.
