@@ -2,6 +2,11 @@
 
 Docker container to run QR code generator (qrencode...).
 
+![Docker Stars](https://img.shields.io/docker/stars/thomasleplus/qrcode.svg)
+![Docker Pulls](https://img.shields.io/docker/pulls/thomasleplus/qrcode.svg)
+![Docker Automated](https://img.shields.io/docker/automated/thomasleplus/qrcode.svg)
+![Docker Build](https://img.shields.io/docker/build/thomasleplus/qrcode.svg)
+
 ## Example without using the filesystem
 
 Let's say that you have a file `foo.txt` in your current working directory that you want to convert into a QR code image `foo.png`:
