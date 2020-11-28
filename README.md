@@ -2,7 +2,7 @@
 
 Docker container to run QR code generator (qrencode...).
 
-![GitHub Build](https://img.shields.io/github/workflow/status/thomasleplus/docker-qrcode/Docker%20Image%20CI)
+![Docker Build](https://github.com/thomasleplus/docker-qrcode/workflows/Docker/badge.svg)
 ![Docker Stars](https://img.shields.io/docker/stars/thomasleplus/qrcode)
 ![Docker Pulls](https://img.shields.io/docker/pulls/thomasleplus/qrcode)
 ![Docker Automated](https://img.shields.io/docker/cloud/automated/thomasleplus/qrcode)
