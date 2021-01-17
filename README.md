@@ -2,12 +2,12 @@
 
 Docker container to run QR code generator (qrencode...).
 
-![Docker Build](https://github.com/thomasleplus/docker-qrcode/workflows/Docker/badge.svg)
-![Docker Stars](https://img.shields.io/docker/stars/thomasleplus/qrcode)
-![Docker Pulls](https://img.shields.io/docker/pulls/thomasleplus/qrcode)
-![Docker Automated](https://img.shields.io/docker/cloud/automated/thomasleplus/qrcode)
-![Docker Build](https://img.shields.io/docker/cloud/build/thomasleplus/qrcode)
-![Docker Version](https://img.shields.io/docker/v/thomasleplus/qrcode?sort=semver)
+[![Docker Build](https://github.com/thomasleplus/docker-qrcode/workflows/Docker/badge.svg)](https://github.com/thomasleplus/docker-qrcode/actions?query=workflow:"Docker")
+[![Docker Stars](https://img.shields.io/docker/stars/thomasleplus/qrcode)](https://hub.docker.com/r/thomasleplus/qrcode)
+[![Docker Pulls](https://img.shields.io/docker/pulls/thomasleplus/qrcode)](https://hub.docker.com/r/thomasleplus/qrcode)
+[![Docker Automated](https://img.shields.io/docker/cloud/automated/thomasleplus/qrcode)](https://hub.docker.com/r/thomasleplus/qrcode)
+[![Docker Build](https://img.shields.io/docker/cloud/build/thomasleplus/qrcode)](https://hub.docker.com/r/thomasleplus/qrcode)
+[![Docker Version](https://img.shields.io/docker/v/thomasleplus/qrcode?sort=semver)](https://hub.docker.com/r/thomasleplus/qrcode)
 
 ## Example without using the filesystem
 
