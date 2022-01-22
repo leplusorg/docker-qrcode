@@ -13,15 +13,15 @@ Docker container to run QR code generator (qrencode...).
 
 Let's say that you have a file `foo.txt` in your current working directory that you want to convert into a QR code image `foo.png`:
 
-### Mac/Linux
+**Mac/Linux**
 
-```
+```bash
 cat foo.txt | docker run --rm -i --net=none leplusorg/qrcode qrencode -l L -o - > foo.png
 ```
 
-### Windows
+**Windows**
 
-```
+```batch
 type foo.txt | docker run --rm -i --net=none leplusorg/qrcode qrencode -l L -o - > foo.png
 ```
 
@@ -29,23 +29,23 @@ type foo.txt | docker run --rm -i --net=none leplusorg/qrcode qrencode -l L -o -
 
 Same thing, assuming that you have a file `foo.txt` in your current working directory that you want to convert into a QR code image `foo.png`:
 
-### Mac/Linux
+**Mac/Linux**
 
-```
+```bash
 docker run --rm -t --user="$(id -u):$(id -g)" --net=none -v "$(pwd):/tmp" leplusorg/qrcode qrencode -l L -r /tmp/foo.txt -o /tmp/foo.png
 ```
 
-### Windows
+**Windows**
 
 In `cmd`:
 
-```
+```batch
 docker run --rm -t --net=none -v "%cd%:/tmp" leplusorg/qrcode qrencode -l L -r /tmp/foo.txt -o /tmp/foo.png
 ```
 
 In PowerShell:
 
-```
+```pwsh
 docker run --rm -t --net=none -v "${PWD}:/tmp" leplusorg/qrcode qrencode -l L -r /tmp/foo.txt -o /tmp/foo.png
 ```
 
@@ -53,7 +53,7 @@ docker run --rm -t --net=none -v "${PWD}:/tmp" leplusorg/qrcode qrencode -l L -r
 
 To know more command line options of `qrencode`:
 
-```
+```bash
 docker run --rm --net=none leplusorg/qrcode qrencode -h
 ```
 
