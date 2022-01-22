@@ -51,7 +51,7 @@ docker run --rm -t --net=none -v "${PWD}:/tmp" leplusorg/qrcode qrencode -l L -r
 
 ## Help
 
-To know more command line options of `qrencode`:
+To know more command-line options of `qrencode`:
 
 ```bash
 docker run --rm --net=none leplusorg/qrcode qrencode -h
