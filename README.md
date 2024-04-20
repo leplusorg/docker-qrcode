@@ -2,6 +2,7 @@
 
 Docker container to run QR code generator (qrencode...).
 
+[![Dockerfile](https://img.shields.io/badge/GitHub-Dockerfile-blue)](https://github.com/leplusorg/docker-qrcode/blob/main/qrcode/Dockerfile)
 [![Docker Build](https://github.com/leplusorg/docker-qrcode/workflows/Docker/badge.svg)](https://github.com/leplusorg/docker-qrcode/actions?query=workflow:"Docker")
 [![Docker Stars](https://img.shields.io/docker/stars/leplusorg/qrcode)](https://hub.docker.com/r/leplusorg/qrcode)
 [![Docker Pulls](https://img.shields.io/docker/pulls/leplusorg/qrcode)](https://hub.docker.com/r/leplusorg/qrcode)
