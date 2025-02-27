@@ -7,6 +7,8 @@ Docker container to run QR code generator (qrencode...).
 [![Docker Stars](https://img.shields.io/docker/stars/leplusorg/qrcode)](https://hub.docker.com/r/leplusorg/qrcode)
 [![Docker Pulls](https://img.shields.io/docker/pulls/leplusorg/qrcode)](https://hub.docker.com/r/leplusorg/qrcode)
 [![Docker Version](https://img.shields.io/docker/v/leplusorg/qrcode?sort=semver)](https://hub.docker.com/r/leplusorg/qrcode)
+[![CII Best Practices](https://bestpractices.coreinfrastructure.org/projects/10071/badge)](https://bestpractices.coreinfrastructure.org/projects/10071)
+[![OpenSSF Scorecard](https://api.securityscorecards.dev/projects/github.com/leplusorg/docker-qrcode/badge)](https://securityscorecards.dev/viewer/?uri=github.com/leplusorg/docker-qrcode)
 
 ## Example without using the filesystem
 
