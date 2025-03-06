@@ -17,13 +17,13 @@ Let's say that you have a file `foo.txt` in your current working directory that 
 **Mac/Linux**
 
 ```bash
-cat foo.txt | docker run --rm -i --net=none leplusorg/qrcode qrencode -l L -o - > foo.png
+cat foo.txt | docker run --rm -i --net=none leplusorg/qrcode qrencode -o - > foo.png
 ```
 
 **Windows**
 
 ```batch
-type foo.txt | docker run --rm -i --net=none leplusorg/qrcode qrencode -l L -o - > foo.png
+type foo.txt | docker run --rm -i --net=none leplusorg/qrcode qrencode -o - > foo.png
 ```
 
 ## Example using the filesystem
@@ -33,7 +33,7 @@ Same thing, assuming that you have a file `foo.txt` in your current working dire
 **Mac/Linux**
 
 ```bash
-docker run --rm -t --user="$(id -u):$(id -g)" --net=none -v "$(pwd):/tmp" leplusorg/qrcode qrencode -l L -r /tmp/foo.txt -o /tmp/foo.png
+docker run --rm -t --user="$(id -u):$(id -g)" --net=none -v "$(pwd):/tmp" leplusorg/qrcode qrencode -r /tmp/foo.txt -o /tmp/foo.png
 ```
 
 **Windows**
@@ -41,13 +41,13 @@ docker run --rm -t --user="$(id -u):$(id -g)" --net=none -v "$(pwd):/tmp" leplus
 In `cmd`:
 
 ```batch
-docker run --rm -t --net=none -v "%cd%:/tmp" leplusorg/qrcode qrencode -l L -r /tmp/foo.txt -o /tmp/foo.png
+docker run --rm -t --net=none -v "%cd%:/tmp" leplusorg/qrcode qrencode -r /tmp/foo.txt -o /tmp/foo.png
 ```
 
 In PowerShell:
 
 ```pwsh
-docker run --rm -t --net=none -v "${PWD}:/tmp" leplusorg/qrcode qrencode -l L -r /tmp/foo.txt -o /tmp/foo.png
+docker run --rm -t --net=none -v "${PWD}:/tmp" leplusorg/qrcode qrencode -r /tmp/foo.txt -o /tmp/foo.png
 ```
 
 ## Help
