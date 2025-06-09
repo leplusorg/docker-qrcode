@@ -1,6 +1,6 @@
 # QR Code
 
-Docker container to run QR code generator (qrencode...).
+Docker container with utilities to process QR codes (qrencode...).
 
 [![Dockerfile](https://img.shields.io/badge/GitHub-Dockerfile-blue)](qrcode/Dockerfile)
 [![Docker Build](https://github.com/leplusorg/docker-qrcode/workflows/Docker/badge.svg)](https://github.com/leplusorg/docker-qrcode/actions?query=workflow:"Docker")
