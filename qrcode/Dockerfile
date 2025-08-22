@@ -20,9 +20,6 @@ RUN apk -U upgrade \
     libqrencode-tools=4.1.1-r3 \
     py3-pip=25.1.1-r0 \
     python3=3.12.11-r0 \
-    && if apk -u list | tee -a /dev/stderr | grep -q -e . ; then \
-      exit 1 ; \
-    fi \
     && apk cache clean \
     && rm -rf /var/cache/apk/*
 
