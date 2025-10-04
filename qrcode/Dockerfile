@@ -14,7 +14,7 @@ SHELL ["/bin/ash", "-euo", "pipefail", "-c"]
 RUN apk upgrade --no-cache \
     && apk add --no-cache \
     coreutils=9.7-r1 \
-    curl=8.14.1-r1 \
+    curl=8.14.1-r2 \
     git=2.49.1-r0 \
     libqrencode-tools=4.1.1-r3 \
     py3-pip=25.1.1-r0 \
