@@ -18,7 +18,7 @@ RUN apk upgrade --no-cache \
     git=2.49.1-r0 \
     libqrencode-tools=4.1.1-r3 \
     py3-pip=25.1.1-r0 \
-    python3=3.12.11-r0 \
+    python3=3.12.12-r0 \
     && apk cache --no-cache clean \
     && rm -rf /var/cache/apk/*
 
